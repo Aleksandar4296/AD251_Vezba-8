@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS fajl*/
+
+body {
+
+	background-image: linear-gradient(to right, #2D427E, #F0C762, #8A234F);
+}
+
+#outerWrapper {
+	margin: 0px auto;
+	width: 800px;
+	background-color: #7eb0c0;
+	padding: 50px;
+}
+	 
+nav {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: white;
+	width: 800px;
+	font-size: 16px;
+	margin: 0px auto;
+	overflow: hidden;
+	background-color: #8A234F;
+}
+nav ul {
+	margin: auto;
+	width: 800px;
+
+	list-style: none;
+	
+}
+nav ul li {
+	float: left;
+	width: 170px;
+	text-align: center;
+	margin-left: -40px;
+}
+nav ul li a {
+	font-size: 25px;
+	line-height: 25px;
+	display: block;
+	color: white;
+	background-color: #8A234F;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #FFF;
+	background-color: #648B82;
+}
+header {
+	text-align: center;
+	background-color: #D4CDC0;
+}
+
+footer {
+	font-size: small;
+	text-align: center;
+
+}
+section {
+	float: left;
+	
+	height:400px;
+	padding:20px;
+
+	background-color: #D4CDC0;
+}
+aside {
+	width: 780px;
+	padding-top: 20px;
+
+	background-color: #648B82;
+	padding: 40px;
+}
+#contentWrapper {
+	overflow: hidden;
+}
+
+img{
+	padding: 50px;
+}

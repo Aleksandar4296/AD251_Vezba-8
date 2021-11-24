@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS fajl*/
+
+	body {
+
+		background-image: linear-gradient(to right, #2D427E, #F0C762, #E67E3E);
+	}
+
+#outerWrapper {
+	margin: 0px auto;
+	width: 800px;
+	background-color: #AB6255;
+	padding: 50px;
+}
+	 aside{
+		 padding: 10px;
+		 background-color: #4090CB;
+	 }
+nav {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: white;
+	width: 800px;
+	font-size: 16px;
+	margin: 0px auto;
+	overflow: hidden;
+	background-color: #2D427E;
+}
+nav ul {
+	margin: auto;
+	width: 800px;
+
+	list-style: none;
+	
+}
+nav ul li {
+	float: left;
+	width: 170px;
+	text-align: center;
+	margin-left: -40px;
+}
+nav ul li a {
+	padding: 20px;
+	line-height: 25px;
+	display: block;
+	color: white;
+	background-color: #2D427E;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #FFF;
+	background-color: #E8924E;
+}
+header {
+	text-align: center;
+	background-color: #F7E9C7;
+}
+
+footer {
+	font-size: small;
+	text-align: center;
+
+}
+section {
+	float: left;
+	width: 580px;
+	height:400px;
+	padding:20px;
+
+	background-color: #F7E9C7;
+}
+aside {
+	width: 160px;
+	padding-top: 20px;
+	float: right;
+}
+#contentWrapper {
+	overflow: hidden;
+}
+
+img{
+	padding: 20px;
+}
